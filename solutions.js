@@ -16,12 +16,24 @@ function level1Solution() {
 
 function level2Solution() {
   // USE CHAINED IF STATEMENT
-  outputEl.innerHTML = '----';
+  if(column <=2) [
+    outputEl.innerHTML = 'hills';
+   ]
+   else if(column <= 7){
+    outputEl.innerHTML = 'Sand';
+   } else {
+  outputEl.innerHTML ='Water';
+   }
 }
 
 function level3Solution() {
   // USE BINARY IF STATEMENT
-  outputEl.innerHTML = '----';
+if(column <= 2 || >= 8) {
+  outputEl.innerHTML ="hills"
+  else{
+    outputEl.innerHTML= "sand"
+  }
+}
 }
 
 function level4Solution() {
